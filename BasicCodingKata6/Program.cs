@@ -21,7 +21,7 @@ namespace BasicCodingKata6
             var numbers = Enumerable.Range(1, input);
 
             // sum all items in the list
-            var sum = numbers.Sum();
+            var sum = numbers.Sum() + 1;
 
             // multiply all items in the list
             int product = 1;
